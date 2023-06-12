@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Les bases d'une page HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Charte Promo Up2Dev-Montreuil </title>
+  <meta name="description" content="Notre Charte de Promo">
+  <meta name="author" content="Promo Simplon La Poste">
+
+  <!-- Métadonnées spécifique Mobiles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Liaisons des Polices
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Liaisons des fichiers CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/skeleton.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Liaisons du fichier JS si vous faites le bonus
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <!-- Liaison du Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+  <header class="header">
+    <div class="containerHeader">
+      Promo Up2Dev-Montreuil
+    </div>
+  </header>
+
+  <!-- Structure principale de la page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main class="container">
+
+    <section class="sectionRegles">
+        <div>
+          <h1>Charte de promo</h1>
+        <p>Ces règles nous unissent et ont été <strong>inventées</strong> et sont <strong>officieuses</strong> ! Les
+          voici, prenez plaisir à les parcourir !</p> 
+        </div>
+        <div class="boutonGithub">
+          <p class="textBouton"><a href="http://www.github.com" target="_blank">Accès Github</a></p>
+        </div>
+    </section>
+    <br>
+    <section class="menu">
+      <div class="accordion">
+        <input type="checkbox" id="tabReussiteCollective" />
+        <label class="accordion-label" for="tabReussiteCollective">Réussite Collective</label>
+        <div class="accordion-content">
+          <ol>
+            <li>Si j’ai fini un exercice, j’aide les autres</li>
+            <li>En cas de difficultés, je n'hésite pas à solliciter le groupe, à condition d'avoir suffisamment recherché en autonomie, si je demande de l'aide je m'engage à approffondir le sujet par moi même.
+            </li>
+            <li>Je partage mes sources, trucs et astuces</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="menu">
+     <div class="accordion">
+        <input type="checkbox" id="tab1"/>
+        <label class="accordion-label" for="tab1">Vivre ensemble</label>
+        <div class ="accordion-content">
+          <ol>
+            <li>Saluer tout le monde  en  arrivant</li> 
+            <li>Mettre son téléphone en silencieux ou en vibreur pendant les cours</li>
+            <li>S'écouter les uns les autres</li>
+            <li>Ne pas parler pendant les explications du formateur</li>
+            </ol>
+                      
+        </div>  
+     </div>
+    </section>
+    <br>
+    <section class="menu">
+      <div class="accordion">
+        <input type="checkbox" id="tabPourLeFun" />
+        <label class="accordion-label" for="tabPourLeFun">Pour le fun</label>
+        <div class="accordion-content">
+          <ol>
+            <li>Payer le petit dejeuner au bout 20min de retard</li>
+            <li>Finir plus tot si on est sage</li>
+            <li>Payer son gateau le jour de son anniversaire</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="sectionCode">
+      <p>&nbsp;Grâce à ce règlement on obtient le code suivant :</p>
+      <pre><code style="overflow: auto;">
+      var compétencesDePromo = [];
+      var humeurPromo = 'Au top';
+      if('règles comprises' == true && 'règles appliquées' == true) {
+      compétencesDePromo.push(new Compétence());
+      } else {
+      humeurPromo = 'Pas top';
+      }
+      </code></pre>
+    </section>
+  </main>
+  <br>
+  <footer class="footer">
+    <div class="boutonRandom">
+        <p class="textBouton" id="demo" onclick="remplaceBouton()">Random apprenant</p>
+        <!-- <p id="demo"></p> -->
+        <!-- onclick="remplaceBouton() -->
+    </div>
+  </footer>
+  <br>
+  <!-- Fin du document (fermeture des balises)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
